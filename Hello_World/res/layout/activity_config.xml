@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:background="@drawable/space" >
+  <LinearLayout
+      android:layout_width="170dp" android:layout_height="match_parent"
+      android:orientation="vertical" >
+    <Button android:id="@+id/coloniesButton" android:text="@string/button_name_colonies"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/colonistsButton" android:text="@string/button_name_colonist"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/basesButton" android:text="@string/button_name_bases"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/militaryButton" android:text="@string/button_name_military"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/ffonButton" android:text="@string/button_name_ffon"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/ffoffButton" android:text="@string/button_name_ffoff"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+    <Button android:id="@+id/doneButton" android:text="@string/button_name_done"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent" android:layout_height="match_parent"
+      android:orientation="vertical" android:layout_marginRight="5dp"  >
+     <EditText android:id="@+id/editTextColonies" android:inputType="number" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="13dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="monospace" />
+     <EditText android:id="@+id/editTextColonists" android:inputType="number" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="23dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="monospace" />
+     <EditText android:id="@+id/editTextBases" android:inputType="number" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="23dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="monospace" />
+     <EditText android:id="@+id/editTextMilitary" android:inputType="number" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="23dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="monospace" />     
+     <EditText android:id="@+id/editForcefieldOn" android:inputType="text" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="23dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="sans" />
+     <EditText android:id="@+id/editForcefieldOff" android:inputType="text" android:ems="12"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="23dp" android:background="#FFFFFF" android:alpha="0.5"
+        android:gravity="center" android:textStyle="bold" android:typeface="sans" />
+    <Button android:id="@+id/timeButton" android:text="@string/button_name_time"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" android:layout_marginTop="11dp" android:layout_marginLeft="11dp" />
+     </LinearLayout>
+</LinearLayout>    

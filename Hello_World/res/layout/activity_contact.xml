@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/space">
+    <Button android:id="@+id/findAliens"
+            android:text="@string/find_alien_button_value"
+            android:textColor="#FFFFAA"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <Button android:id="@+id/addSpock"
+            android:text="@string/add_spock_button_value"
+            android:textColor="#FFFFAA"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <Button android:id="@+id/addWorf"
+            android:text="@string/add_worf_button_value"
+            android:textColor="#FFFFAA"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <Button android:id="@+id/returnHome"
+            android:text="@string/button_name_return"
+            android:textColor="#FFFFAA"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>

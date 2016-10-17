@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/galaxy"
+    android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity" >
+    <TextView android:id="@+id/textView1" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+      android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/planet_name_label" />
+    <TextView android:id="@+id/dataView1" android:layout_marginLeft="36dip" android:textColor="#FFFF99"                
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView1" android:text="@string/planet_name_label" />
+    <TextView android:id="@+id/textView2" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"   
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1" android:text="@string/planet_mass_label" />
+    <TextView android:id="@+id/dataView2" android:layout_below="@+id/dataView1" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView1" android:layout_toRightOf="@+id/textView2"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_mass_label" />
+    <TextView android:id="@+id/textView3" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2" android:text="@string/planet_gravity_label" />
+    <TextView android:id="@+id/dataView3" android:layout_below="@+id/dataView2" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView2" android:layout_toRightOf="@+id/textView3"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_gravity_label" />
+    <TextView android:id="@+id/textView4" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3" android:text="@string/planet_colonies_label" />
+    <TextView android:id="@+id/dataView4" android:layout_below="@+id/dataView3" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView3" android:layout_toRightOf="@+id/textView4"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_colonies_label" />
+    <TextView android:id="@+id/textView5" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4" android:text="@string/planet_population_label" />
+    <TextView android:id="@+id/dataView5" android:layout_below="@+id/dataView4" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView4" android:layout_toRightOf="@+id/textView5"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_population_label" />
+    <TextView android:id="@+id/textView6" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5" android:text="@string/planet_military_label" />
+    <TextView android:id="@+id/dataView6" android:layout_below="@+id/dataView5" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView5" android:layout_toRightOf="@+id/textView6"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_military_label" />
+    <TextView android:id="@+id/textView7" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6" android:text="@string/planet_bases_label" />
+    <TextView android:id="@+id/dataView7" android:layout_below="@+id/dataView6" android:textColor="#FFFF99"
+        android:layout_alignStart="@+id/dataView6" android:layout_toRightOf="@+id/textView7"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_bases_label" />
+    <TextView android:id="@+id/textView8" android:layout_marginLeft="5dip" android:textColor="#FFDDAA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7" android:text="@string/planet_forcefield_label" />
+    <TextView android:id="@+id/dataView8" android:layout_below="@+id/dataView7"
+        android:layout_alignStart="@+id/dataView7" android:layout_toRightOf="@+id/textView8"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/planet_forcefield_label" android:textColor="#FFFF99" />
+    <ImageView android:id="@+id/planetEffect" android:src="@drawable/anim_plasma_ring"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8" android:contentDescription="@string/content_desc_earth" />
+    <ImageView android:id="@+id/imageEarth" android:src="@drawable/earth" 
+        android:background="#00000000" android:padding="24dp" android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8" android:contentDescription="@string/content_desc_earth" />    
+</RelativeLayout>

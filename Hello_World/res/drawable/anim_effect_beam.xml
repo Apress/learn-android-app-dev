@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false" >
+    <item android:drawable="@drawable/beam0" android:duration="125" />
+    <item android:drawable="@drawable/beam1" android:duration="125" />
+    <item android:drawable="@drawable/beam2" android:duration="125" />
+    <item android:drawable="@drawable/beam3" android:duration="125" />
+    <item android:drawable="@drawable/beam4" android:duration="125" />
+    <item android:drawable="@drawable/beam5" android:duration="125" />
+    <item android:drawable="@drawable/beam6" android:duration="125" />
+    <item android:drawable="@drawable/beam7" android:duration="125" />
+    <item android:drawable="@drawable/beam8" android:duration="125" />
+    <item android:drawable="@drawable/beam9" android:duration="125" />
+    <item android:drawable="@drawable/beam10" android:duration="125" />
+    <item android:drawable="@drawable/beam11" android:duration="125" />
+    <item android:drawable="@drawable/beam10" android:duration="125" />
+    <item android:drawable="@drawable/beam9" android:duration="125" />
+    <item android:drawable="@drawable/beam8" android:duration="125" />
+    <item android:drawable="@drawable/beam7" android:duration="125" />
+    <item android:drawable="@drawable/beam6" android:duration="125" />
+    <item android:drawable="@drawable/beam5" android:duration="125" />
+    <item android:drawable="@drawable/beam4" android:duration="125" />
+    <item android:drawable="@drawable/beam3" android:duration="125" />
+    <item android:drawable="@drawable/beam2" android:duration="125" />
+    <item android:drawable="@drawable/beam1" android:duration="125" />
+</animation-list>

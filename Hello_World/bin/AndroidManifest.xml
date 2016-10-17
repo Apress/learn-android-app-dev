@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="chapter.two.hello_world"
+          android:versionCode="1" android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="16" android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <application
+        android:allowBackup="true" android:icon="@drawable/helloworldicon"
+        android:label="@string/app_name" android:theme="@style/AppTheme" >
+        <activity
+            android:name="chapter.two.hello_world.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="chapter.two.hello_world.NewPlanet"
+                  android:label="@string/activity_title_new_planet" />  
+        <activity android:name="chapter.two.hello_world.ConfigPlanet"
+                  android:label="@string/activity_title_config_planet" />     
+        <activity android:name="chapter.two.hello_world.TravelPlanet"
+                  android:label="@string/activity_title_travel_planet" /> 
+        <activity android:name="chapter.two.hello_world.AttackPlanet"
+                  android:label="@string/activity_title_attack_planet" />   
+        <activity android:name="chapter.two.hello_world.TimePlanet"
+                  android:label="@string/activity_title_time_planet"   />
+        <activity android:name="chapter.two.hello_world.AlienContact"
+                  android:label="@string/activity_title_alien_contact"   />
+        <service  android:enabled="true" android:name=".MusicService"  />
+        <receiver android:name="chapter.two.hello_world.AlarmReceiver" />
+        </application>
+</manifest>

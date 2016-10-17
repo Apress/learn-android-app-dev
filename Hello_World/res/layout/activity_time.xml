@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:id="@+id/timePlanetScreen"
+    android:background="@drawable/tran_stars_galaxy">
+    <TextView android:text="@string/time_caption_value"
+              android:textColor="#FFCCAA" android:textSize="25sp"
+              android:layout_gravity="center" android:layout_marginTop="10dp"
+              android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <AnalogClock android:id="@+id/analogClock1" android:background="@drawable/earth"
+                 android:layout_marginTop="8dp" android:layout_gravity="center"
+                 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <EditText android:id="@+id/setAlarm" android:hint="@string/timer_hint_value"
+              android:inputType="numberDecimal" android:ems="12" android:alpha="0.75"
+              android:layout_marginTop="10dp" android:background="#FFFFFF" android:textStyle="bold"
+              android:layout_gravity="center" android:typeface="monospace"
+              android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/startCounter" android:text="@string/timer_button_value"
+            android:textColor="#FFFFAA" android:layout_gravity="center"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />   
+    <Button android:id="@+id/startServiceButton"  android:textColor="#FFFFAA"
+            android:text="@string/start_button_value"
+            android:layout_marginTop="10dp" android:layout_gravity="center"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/stopServiceButton"  android:textColor="#FFFFAA"
+            android:text="@string/stop_button_value"
+            android:layout_marginTop="2dp" android:layout_gravity="center"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@+id/timeButton"  android:textColor="#FFCCAA"
+            android:text="@string/time_button_value"
+            android:layout_marginTop="6dp" android:layout_gravity="center"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

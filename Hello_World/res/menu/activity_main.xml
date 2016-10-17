@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_add_planet"/>
+    <item android:id="@+id/menu_config"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/menu_config_planet"/>
+    <item android:id="@+id/menu_travel"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/menu_travel_planet"/>
+    <item android:id="@+id/menu_attack"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/menu_attack_planet"/>
+    <item android:id="@+id/menu_contact"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/menu_contact_planet"/>
+</menu>

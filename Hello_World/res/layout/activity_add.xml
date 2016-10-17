@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/stars" android:id="@+id/new_planet_screen">
+    <TextView android:id="@+id/addPlanetText" android:textSize="22sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/doneAddingButton" android:textColor="#FFFFFF"
+        android:layout_marginLeft="22dp" android:text="@string/add_planet_caption" />    
+    <Button android:id="@+id/doneAddingButton" android:textColor="#FFFFFF"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" android:layout_alignParentTop="true"        
+        android:text="@string/button_name_done_add" />
+    <ImageView android:id="@+id/imageEarth" android:src="@drawable/earth"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp" android:layout_below="@+id/doneAddingButton"
+        android:contentDescription="@string/content_desc_earth" />
+    <ImageView android:id="@+id/imageMars" android:src="@drawable/mars"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageEarth" android:layout_marginLeft="22dp"
+        android:layout_below="@+id/doneAddingButton"
+        android:contentDescription="@string/content_desc_mars" />
+    <ImageView android:id="@+id/imageVenus" android:src="@drawable/venus" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/imageEarth" android:layout_marginLeft="22dp"
+        android:contentDescription="@string/content_desc_venus" />
+    <ImageView android:id="@+id/imageJupiter" android:src="@drawable/jupiter" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageVenus"
+        android:layout_below="@+id/imageMars" android:layout_marginLeft="22dp"
+        android:contentDescription="@string/content_desc_jupiter" />
+    <ImageView android:id="@+id/imageSaturn" android:src="@drawable/saturn"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/imageVenus" android:layout_marginLeft="22dp"
+        android:contentDescription="@string/content_desc_saturn" />
+    <ImageView android:id="@+id/imageNeptune" android:src="@drawable/neptune"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageSaturn"
+        android:layout_below="@+id/imageJupiter" android:layout_marginLeft="22dp"
+        android:contentDescription="@string/content_desc_neptune" />
+</RelativeLayout>
